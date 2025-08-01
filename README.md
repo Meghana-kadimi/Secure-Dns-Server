@@ -27,3 +27,15 @@ This project is a **Secure DNS Server** built using **Python** and **Flask**, de
 - **Security**: Domain filtering, Input validation
 
 ---
+## Project Structure
+├── app/
+│ ├── routes.py 
+│ ├── dns_handler.py 
+│ ├── threat_feed.py
+│ └── templates/
+│ └── dashboard.html
+├── static/
+├── database.db 
+├── run.py 
+├── README.md 
+└── requirements.txt 
